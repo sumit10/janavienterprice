@@ -1,0 +1,64 @@
+{{ define "content" }}
+<section class="page-header minimal page-title-left light-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-left">
+                <!-- TITLE-->
+                <h2 class="text-uppercase" data-animated="fadeInLeftBig" data-animation-delay="400">Product</h2>
+                <!-- TEXT-->
+                <p data-animated="fadeInDownBig" data-animation-delay="400">We ensure quality &amp; support.</p>
+                <!-- BREADCRUMB-->
+                <ul class="breadcrumb">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Product</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="shop-section">
+    <!-- CONTAINER -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="product-result-count">
+                    {{ $product := (where .Site.RegularPages "Type" "product") }}
+
+                    Showing {{len $product}} results
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="isotope-grid grid-three-column" data-gutter="30" data-columns="3" style="position: relative; display: flex;">
+                    <div class="grid-sizer" style="position: absolute; left: 0px; top: 0px;"></div>
+                    <!-- PRODUCT-->
+                    {{ range where .Site.RegularPages "Type" "product" }}                        
+                        <div class="item text-left" style="flex: 1 1 auto;">
+                                <!-- IMAGE -->
+                                <img class="img-responsive" src="{{ .Params.Image }}" width="370" height="470" alt="">
+                                <!-- PRODUCT DETAILS-->
+                                <h5 class="product-title">
+                                    <a class="product-name" href="{{ .Permalink }}">{{ .Title }}</a>
+                                    <span class="product-price"> -{{ .Params.Amount }}</span>
+                                </h5>
+                                <!-- LINK -->
+                                <p class="padding-bottom-20">
+                                    <a class="btn btn-sm btn-dark btn-square btn-hv-theme btn-default" href="{{ .Permalink }}" type="button">Learn More</a>
+                                </p>
+                        </div>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- /.CONTAINER -->
+</section>
+{{ end }}
+
