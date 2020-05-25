@@ -14,4 +14,4 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Discription", name: "discription", widget: "markdown"}
       - {label: "Image", name: "image", widget: "image"}
-      - {label: "Amount", name: "amount", widget: "amount"}
+      - {label: "Amount", name: "amount", widget: "string"}
