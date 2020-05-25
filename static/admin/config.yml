@@ -11,7 +11,7 @@ collections:
     folder: "content/product"
     slug: "{{slug}}"
     fields:
-      - {lable: "Title", name: "title" , widget: "string"}
-      - {lable: "Discription", name: "discription" ,widget: "markdown"}
-      - {lable: "Image", name: "image" ,widget: "image"}
-      - {lable: "Amount", name: "amount" , widget: "amount"}
+      - {label: "Title", name: "title" , widget: "string"}
+      - {label: "Discription", name: "discription" ,widget: "markdown"}
+      - {label: "Image", name: "image" ,widget: "image"}
+      - {label: "Amount", name: "amount" , widget: "amount"}
