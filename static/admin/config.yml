@@ -9,6 +9,7 @@ collections:
   - name: "product"
     label: "Product"
     folder: "content/product"
+    create: true
     slug: "{{slug}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
