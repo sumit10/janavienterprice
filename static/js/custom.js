@@ -1016,19 +1016,12 @@ function bootstrapForm(){
 			validator    = $form.data('bootstrapValidator'),
 			submitButton = validator.getSubmitButton();
 			var form_data = $('#bootstrap-form').serialize();
-			$.ajax({
-					type: "POST",
-					dataType: 'json',
-					url: "http://yo.funkstore.in/contact-form.php",					
-					data: form_data,
-					success: function(msg){						
-						$('.form-message').html(msg.data);
-						$('.form-message').show();
-						submitButton.removeAttr("disabled");
-						resetForm($('#bootstrap-form'));						
-					},
-					error: function(msg){}
-			 });
+			$.post($form.attr("action"), $form.serialize()).then(function() {
+				$('.form-message').html(msg.data);
+				$('.form-message').show();
+				submitButton.removeAttr("disabled");
+				resetForm($('#bootstrap-form'));		
+			  });
 			return false;
 		});
 	}
