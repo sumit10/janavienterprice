@@ -21,7 +21,7 @@
                     <!-- BUTTON -->
                     <button data-toggle="modal" data-target="#quote-modal" class="btn no-margin btn-dark btn-hv-theme btn-rounded btn-default">GET A QUOTE</button>
                     <!-- BUTTON -->
-                    <a href="#projects" class="btn no-margin btn-dark btn-hv-theme btn-rounded btn-default">OUR PROJECTS</a>
+                    <a href="/project" class="btn no-margin btn-dark btn-hv-theme btn-rounded btn-default">OUR PROJECTS</a>
                 </div>
             </div>
         </div>
@@ -75,12 +75,11 @@
         <div class="row">
             <div class="col-md-10 col-md-offset-1 text-center bottom-padding">
                 <!-- TITLE -->
-                <h5>Foremost Medical Equipment in Mumbai</h5>
+                <h5>Janvi Enterpeises</h5>
                 <!-- TEXT  -->
                 <!-- <h2 class="text-uppercase">we can manage your finance</h2> -->
                 <p class="title-description">
-                    Are you representing a clinic or a hospital that are on the lookout for a new supplier for top quality medical equipment? If so, you’ll want to get in touch with Janvi Enterprises, located in Mumbai. 
-                    Our mission is to provide you with nothing but the best medical equipment on the market. For more information about the services and products that we provide, please feel free to give us a call on +919767480477.
+                    Janvi Enterpeises is fastest growing company with over 5 years of expertise in Trade & Distributor of World Class Surgical, Medical & Healthcare products. Janvi Enterpeises is also importer of best quality Surgical, Medical & Healthcare products in india. Company has vast distribution network and clients all across the country.
                 </p>
             </div>
         </div>
@@ -130,20 +129,7 @@
                             <!-- <button class="btn btn-outline btn-hv-dark btn-md btn-rounded">LEARN MORE</button> -->
                         </div>
                     </div>
-                    <div class="item hv-wrapper">
-                        <div class="feature-text">
-                            <!-- ICON -->
-                            <i class="flaticon-tool-3 fa-4x icon-shape-circle icon-light icon-theme-bg icon-hvtheme icon-hvtransparent-bg icon-hvbordered-theme border b2 solid"></i>
-                            <br>
-                            <br>
-                            <!-- TITLE -->
-                            <h5 class="text-uppercase">Business Solution</h5>
-                            <!-- TEXT -->
-                            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p> -->
-                            <!-- BUTTON -->
-                            <!-- <button class="btn btn-outline btn-hv-dark btn-md btn-rounded">LEARN MORE</button> -->
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </div>
@@ -162,25 +148,25 @@
             <div class="col-md-3 bottom-padding-sm" data-animation="fadeInLeft">
                 <div class="item-box light-bg">
                     <h5>World Class Services</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum blandit faucibus.</p>
+                    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum blandit faucibus.</p> -->
                 </div>
             </div>
             <div class="col-md-3 bottom-padding-sm" data-animation="fadeInRight">
                 <div class="item-box light-bg">
                     <h5>Affordable Prices</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum blandit faucibus.</p>
+                    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum blandit faucibus.</p> -->
                 </div>
             </div>
             <div class="col-md-3 bottom-padding-sm" data-animation="fadeInRight">
                 <div class="item-box light-bg">
                     <h5>Great Support</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum blandit faucibus.</p>
+                    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum blandit faucibus.</p> -->
                 </div>
             </div>
             <div class="col-md-3 bottom-padding-sm" data-animation="fadeInLeft">
                 <div class="item-box light-bg">
                     <h5>Satisfied Customers</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum blandit faucibus.</p>
+                    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum blandit faucibus.</p> -->
                 </div>
             </div>
 		</div>
@@ -205,27 +191,15 @@
                 <!-- CAROUSEL -->
                 <div class="owl-carousel" data-items="1" data-margin="30" data-loop="true" data-merge="true" data-nav="false" data-dots="false" data-stagepadding="" data-mobile="2" data-tablet="3" data-desktopsmall="3" data-desktop="3" data-autoplay="true" data-delay="6000">
                     <!-- ITEM -->
+                    {{ range where .Site.RegularPages "Type" "product" }}          
                     <div class="item">
                         <!-- IMAGE -->
-                        <a href="images/s1.jpg" class="feature-image" data-rel="prettyPhoto[portfolio]"><img class="img-responsive bottom-margin-sm img-rounded" src="images/s1.jpg" alt="" width="500" height="400" /></a>
+                        <a href="{{ .Params.Image }}" class="feature-image" data-rel="prettyPhoto[portfolio]"><img class="img-responsive bottom-margin-sm img-rounded" src="{{ .Params.Image }}" alt="" width="500" height="400" /></a>
                         <!-- TITLE -->
-                        <h5>Hard Drive, Flash Drive & SSD Destruction</h5>
+                       <a href="{{ .Permalink }}">  <h5>{{ .Title }}</h5>
+                        <p>{{ .Params.Amount }}</p></a>
                     </div>
-                    <!-- ITEM -->
-                    <div class="item">
-                        <!-- IMAGE -->
-                        <a href="images/s2.jpg" data-rel="prettyPhoto[portfolio]"><img class="img-responsive bottom-margin-sm img-rounded" src="images/s2.jpg" alt="" width="500" height="400" /></a>
-                        <!-- TITLE -->
-                        <h5>Electronic Waste Collection & Recycling</h5>
-                    </div>
-                    <!-- ITEM -->
-                    <div class="item">
-                        <!-- IMAGE -->
-                        <a href="images/s3.jpg" data-rel="prettyPhoto[portfolio]"><img class="img-responsive bottom-margin-sm img-rounded" src="images/s3.jpg" alt="" width="500" height="400" /></a>
-                        <!-- TITLE -->
-                        <h5>Electronics & Computer Resale</h5>
-                    </div>
-                
+                    {{ end }}
                 </div>
             </div>
         </div>

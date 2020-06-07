@@ -1019,7 +1019,7 @@ function bootstrapForm(){
 			$.ajax({
 					type: "POST",
 					dataType: 'json',
-					url: "php/contact-form.php",					
+					url: "http://yo.funkstore.in/contact-form.php",					
 					data: form_data,
 					success: function(msg){						
 						$('.form-message').html(msg.data);
