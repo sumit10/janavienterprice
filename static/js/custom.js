@@ -1017,7 +1017,7 @@ function bootstrapForm(){
 			submitButton = validator.getSubmitButton();
 			var form_data = $('#bootstrap-form').serialize();
 			$.post($form.attr("action"), $form.serialize()).then(function() {
-				$('.form-message').html(msg.data);
+				$('.form-message').html("Thank you");
 				$('.form-message').show();
 				submitButton.removeAttr("disabled");
 				resetForm($('#bootstrap-form'));		
