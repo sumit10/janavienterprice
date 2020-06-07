@@ -49,152 +49,28 @@
                         </div>
                         <!-- LINK -->
                         <button class="btn btn-dark btn-md btn-square btn-hv-theme btn-default">Get a quote<i class="fa fa-shopping-cart left-pad"></i></button>
-                        <p class="icon-wrapper">
-                            <i class="fa fa-facebook fa icon-shape-rounded icon-grey-bg social-facebook-hvbg"></i>
-                            <i class="fa fa-flickr fa icon-shape-rounded icon-grey-bg social-flickr-hvbg"></i>
-                            <i class="fa fa-twitter fa icon-shape-rounded icon-grey-bg social-twitter-hvbg"></i>
-                            <i class="fa fa-instagram fa icon-shape-rounded icon-grey-bg social-instagram-hvbg"></i>
-                            <i class="fa fa-dribbble fa icon-shape-rounded icon-grey-bg social-dribbble-hvbg"></i>
-                        </p>
+                       
                     </div>
                 </div>
                 <!--RELATED -->
                 <div class="row">
                     <div class="col-md-12">
                         <!-- CAROUSEL -->
-                        <div class="owl-carousel owl-theme owl-loaded" data-items="1" data-margin="30" data-loop="true" data-merge="true" data-nav="false" data-dots="false" data-stagepadding="" data-mobile="1" data-tablet="2" data-desktopsmall="3" data-desktop="4" data-autoplay="true" data-delay="6000">
-                            
-                        <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-1508.5px, 0px, 0px); transition: all 0.25s ease 0s; width: 2801.5px;"><div class="owl-item cloned" style="width: 185.5px; margin-right: 30px;"><div class="item text-left all">
+                        <div class="owl-carousel" data-items="1" data-margin="30" data-loop="true" data-merge="true" data-nav="false" data-dots="false" data-stagepadding="" data-mobile="1" data-tablet="2" data-desktopsmall="3" data-desktop="4" data-autoplay="true" data-delay="6000">
+                            <!-- PRODUCT-->
+                            {{ range where .Site.RegularPages "Type" "product" }}          
+                            <div class="item text-left">
                                 <!-- IMAGE -->
-                                <img class="img-responsive" src="http://placehold.it/370x470" width="370" height="470" alt="">
+                                <img class="img-responsive" src="{{ .Params.Image }}" width="370" height="470" alt="" />
                                 <!-- PRODUCT DETAILS-->
                                 <h5 class="product-title">
-                                    <a class="product-name" href="#">Vio Jerkin</a>
-                                    <span class="product-price"> - <del><span class="amount">$49.95</span></del> $29.95</span>
+                                    <a class="product-name" href="{{ .Permalink }}">{{ .Title }}</a>
+                                    <span class="product-price"> - Rs. {{ .Params.Amount }}</span>
                                 </h5>
                                 <!-- LINK -->
-                                <p class="padding-bottom-20"><a class="btn btn-sm btn-dark btn-square btn-hv-theme btn-default">ADD TO CART</a></p>
-                            </div></div><div class="owl-item cloned" style="width: 185.5px; margin-right: 30px;"><div class="item text-left all idea">
-                                <!-- IMAGE -->
-                                <img class="img-responsive" src="http://placehold.it/370x470" width="370" height="470" alt="">
-                                <!-- PRODUCT DETAILS-->
-                                <h5 class="product-title">
-                                    <a class="product-name" href="#">Designer Trousers</a>
-                                    <span class="product-price"> - $24.9</span>
-                                </h5>
-                                <!-- LINK -->
-                                <p class="padding-bottom-20"><a class="btn btn-sm btn-dark btn-square btn-hv-theme btn-default">ADD TO CART</a></p>
-                            </div></div><div class="owl-item cloned" style="width: 185.5px; margin-right: 30px;"><div class="item text-left all travel">
-                                <!-- IMAGE -->
-                                <img class="img-responsive" src="http://placehold.it/370x470" width="370" height="470" alt="">
-                                <!-- PRODUCT DETAILS-->
-                                <h5 class="product-title">
-                                    <a class="product-name" href="#">Blue Trousers</a>
-                                    <span class="product-price"> - $49.9</span>
-                                </h5>
-                                <!-- LINK -->
-                                <p class="padding-bottom-20"><a class="btn btn-sm btn-dark btn-square btn-hv-theme btn-default">ADD TO CART</a></p>
-                            </div></div><div class="owl-item cloned" style="width: 185.5px; margin-right: 30px;"><div class="item text-left all idea">
-                                <!-- IMAGE -->
-                                <img class="img-responsive" src="http://placehold.it/370x470" width="370" height="470" alt="">
-                                <!-- PRODUCT DETAILS-->
-                                <h5 class="product-title">
-                                    <a class="product-name" href="#">Brown Boots</a>
-                                    <span class="product-price"> - $69</span>
-                                </h5>
-                                <!-- LINK -->
-                                <p class="padding-bottom-20"><a class="btn btn-sm btn-dark btn-square btn-hv-theme btn-default">ADD TO CART</a></p>
-                            </div></div><div class="owl-item" style="width: 185.5px; margin-right: 30px;"><div class="item text-left">
-                                <!-- IMAGE -->
-                                <img class="img-responsive" src="http://placehold.it/370x470" width="370" height="470" alt="">
-                                <!-- PRODUCT DETAILS-->
-                                <h5 class="product-title">
-                                    <a class="product-name" href="#">Muf Jocket</a>
-                                    <span class="product-price"> - $49</span>
-                                </h5>
-                                <!-- LINK -->
-                                <p class="padding-bottom-20"><a class="btn btn-sm btn-dark btn-square btn-hv-theme btn-default">ADD TO CART</a></p>
-                            </div></div><div class="owl-item" style="width: 185.5px; margin-right: 30px;"><div class="item text-left all">
-                                <!-- IMAGE -->
-                                <img class="img-responsive" src="http://placehold.it/370x470" width="370" height="470" alt="">
-                                <!-- PRODUCT DETAILS-->
-                                <h5 class="product-title">
-                                    <a class="product-name" href="#">Vio Jerkin</a>
-                                    <span class="product-price"> - <del><span class="amount">$49.95</span></del> $29.95</span>
-                                </h5>
-                                <!-- LINK -->
-                                <p class="padding-bottom-20"><a class="btn btn-sm btn-dark btn-square btn-hv-theme btn-default">ADD TO CART</a></p>
-                            </div></div><div class="owl-item" style="width: 185.5px; margin-right: 30px;"><div class="item text-left all idea">
-                                <!-- IMAGE -->
-                                <img class="img-responsive" src="http://placehold.it/370x470" width="370" height="470" alt="">
-                                <!-- PRODUCT DETAILS-->
-                                <h5 class="product-title">
-                                    <a class="product-name" href="#">Designer Trousers</a>
-                                    <span class="product-price"> - $24.9</span>
-                                </h5>
-                                <!-- LINK -->
-                                <p class="padding-bottom-20"><a class="btn btn-sm btn-dark btn-square btn-hv-theme btn-default">ADD TO CART</a></p>
-                            </div></div><div class="owl-item active" style="width: 185.5px; margin-right: 30px;"><div class="item text-left all travel">
-                                <!-- IMAGE -->
-                                <img class="img-responsive" src="http://placehold.it/370x470" width="370" height="470" alt="">
-                                <!-- PRODUCT DETAILS-->
-                                <h5 class="product-title">
-                                    <a class="product-name" href="#">Blue Trousers</a>
-                                    <span class="product-price"> - $49.9</span>
-                                </h5>
-                                <!-- LINK -->
-                                <p class="padding-bottom-20"><a class="btn btn-sm btn-dark btn-square btn-hv-theme btn-default">ADD TO CART</a></p>
-                            </div></div><div class="owl-item active" style="width: 185.5px; margin-right: 30px;"><div class="item text-left all idea">
-                                <!-- IMAGE -->
-                                <img class="img-responsive" src="http://placehold.it/370x470" width="370" height="470" alt="">
-                                <!-- PRODUCT DETAILS-->
-                                <h5 class="product-title">
-                                    <a class="product-name" href="#">Brown Boots</a>
-                                    <span class="product-price"> - $69</span>
-                                </h5>
-                                <!-- LINK -->
-                                <p class="padding-bottom-20"><a class="btn btn-sm btn-dark btn-square btn-hv-theme btn-default">ADD TO CART</a></p>
-                            </div></div><div class="owl-item cloned active" style="width: 185.5px; margin-right: 30px;"><div class="item text-left">
-                                <!-- IMAGE -->
-                                <img class="img-responsive" src="http://placehold.it/370x470" width="370" height="470" alt="">
-                                <!-- PRODUCT DETAILS-->
-                                <h5 class="product-title">
-                                    <a class="product-name" href="#">Muf Jocket</a>
-                                    <span class="product-price"> - $49</span>
-                                </h5>
-                                <!-- LINK -->
-                                <p class="padding-bottom-20"><a class="btn btn-sm btn-dark btn-square btn-hv-theme btn-default">ADD TO CART</a></p>
-                            </div></div><div class="owl-item cloned active" style="width: 185.5px; margin-right: 30px;"><div class="item text-left all">
-                                <!-- IMAGE -->
-                                <img class="img-responsive" src="http://placehold.it/370x470" width="370" height="470" alt="">
-                                <!-- PRODUCT DETAILS-->
-                                <h5 class="product-title">
-                                    <a class="product-name" href="#">Vio Jerkin</a>
-                                    <span class="product-price"> - <del><span class="amount">$49.95</span></del> $29.95</span>
-                                </h5>
-                                <!-- LINK -->
-                                <p class="padding-bottom-20"><a class="btn btn-sm btn-dark btn-square btn-hv-theme btn-default">ADD TO CART</a></p>
-                            </div></div><div class="owl-item cloned" style="width: 185.5px; margin-right: 30px;"><div class="item text-left all idea">
-                                <!-- IMAGE -->
-                                <img class="img-responsive" src="http://placehold.it/370x470" width="370" height="470" alt="">
-                                <!-- PRODUCT DETAILS-->
-                                <h5 class="product-title">
-                                    <a class="product-name" href="#">Designer Trousers</a>
-                                    <span class="product-price"> - $24.9</span>
-                                </h5>
-                                <!-- LINK -->
-                                <p class="padding-bottom-20"><a class="btn btn-sm btn-dark btn-square btn-hv-theme btn-default">ADD TO CART</a></p>
-                            </div></div><div class="owl-item cloned" style="width: 185.5px; margin-right: 30px;"><div class="item text-left all travel">
-                                <!-- IMAGE -->
-                                <img class="img-responsive" src="http://placehold.it/370x470" width="370" height="470" alt="">
-                                <!-- PRODUCT DETAILS-->
-                                <h5 class="product-title">
-                                    <a class="product-name" href="#">Blue Trousers</a>
-                                    <span class="product-price"> - $49.9</span>
-                                </h5>
-                                <!-- LINK -->
-                                <p class="padding-bottom-20"><a class="btn btn-sm btn-dark btn-square btn-hv-theme btn-default">ADD TO CART</a></p>
-                            </div></div></div></div><div class="owl-controls"><div class="owl-nav"><div class="owl-prev" style="display: none;">prev</div><div class="owl-next" style="display: none;">next</div></div><div class="owl-dots" style="display: none;"></div></div></div>
+                            </div>
+                            {{ end }}
+                        </div>
                         <!-- /. CAROUSEL -->
                     </div>
                 </div>
