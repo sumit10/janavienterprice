@@ -107,6 +107,6 @@ function MapLoadScript() {
 	
 	var script = document.createElement('script');
 	script.type = 'text/javascript';
-	script.src = 'https://maps.googleapis.com/maps/api/js?v=3.20&' +  'callback=GmapInit&key=AIzaSyAPgKwuuFyzYxDbz7Jr4yxjJ76HvBrywiU ';
+	script.src = 'https://maps.googleapis.com/maps/api/js?v=3.20&' +  'callback=GmapInit&key=AIzaSyBA5G8cfupEKqbB2loIy-MTTTMWOByxmEU';
 	document.body.appendChild(script);
 } 
