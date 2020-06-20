@@ -40,7 +40,7 @@
                     {{ range where .Site.RegularPages "Type" "product" }}                        
                         <div class="item text-left" style="flex: 1 1 auto;">
                                 <!-- IMAGE -->
-                                <img class="img-responsive" src="{{ .Params.Image }}" width="370" height="470" alt="">
+                                <a href="{{ .Permalink }}" ><img class="img-responsive" src="{{ .Params.Image }}" width="370" height="470" alt=""></a>  
                                 <!-- PRODUCT DETAILS-->
                                 <h5 class="product-title">
                                     <a class="product-name" href="{{ .Permalink }}">{{ .Title }}</a>
