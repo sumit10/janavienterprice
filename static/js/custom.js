@@ -984,16 +984,6 @@ function bootstrapForm(){
 						}
 					}
 				},
-				contact_email: {
-					validators: {
-						notEmpty: {
-							message: ''
-						},
-						emailAddress: {
-							message: ''
-						}
-					}
-				},
 				contact_phone: {
 					validators: {
 						notEmpty: {
@@ -1001,7 +991,7 @@ function bootstrapForm(){
 						}
 					}
 				},
-				contact_message: {
+				requirment: {
 					validators: {
 						notEmpty: {
 							message: ''
