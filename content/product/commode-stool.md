@@ -1,17 +1,14 @@
 ---
-title: COMMODE STOOL
-discription: |-
-  
+title: COMMODE CHAIR WITH ARM REST
+discription: >-
+  Folding Commode Chair with Front Cut provides the basic functionality of
+  portability and convenience.
 
-  Powder coated folding frame
 
-  Can be folded & stored easily
+  This chair is foldable and lightweight, thus making it perfect for travelling.
 
-  Can be used over the conventional Indian styled commodes
 
-  Ideal for those who cannot stand for a long period
-
-  Ideal for elderlies & individuals recovering from surgery or injuries
-image: /images/commode-stool-with-lock-550x550h-500x500.jpg
-amount: Rs. 850/-
+  It combines the functionality of a shower seat, the convenience of a commode seat and the transportation ease. It is designed to fit over most standard toilet seats.
+image: /images/commode-chair-with-armrest-1-550x550h-550x550.jpg
+amount: Rs. 1350/-
 ---
