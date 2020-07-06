@@ -1,5 +1,5 @@
 ---
-title: FOWLER BED WITH MATTRESs
+title: FOWLER BED WITH MATTRESS
 discription: |-
   BED DETAILS:
 
