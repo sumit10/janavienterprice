@@ -1,5 +1,5 @@
 ---
-title: Aluminium Height Adjustable Commode Chair with Castors
+title: ALUMINIUM HEIGHT ADJUSTABLE COMMODE CHAIR WITH WHEELS
 discription: >-
   * Fully Foldable Commode Chair.
 
