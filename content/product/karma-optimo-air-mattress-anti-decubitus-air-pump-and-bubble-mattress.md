@@ -1,5 +1,5 @@
 ---
-title: Karma OPTIMO Air Mattress Anti Decubitus Air Pump and Bubble Mattress
+title: Karma OPTIMO Air Mattress
 discription: >-
   * Variable pressure dial for precise air flow, and restful sleep.
 
