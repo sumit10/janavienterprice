@@ -8,5 +8,5 @@ discription: |-
   * Railing : 2 Collapsible Side Railing (1 Left + 1 Right)
   * Material Finish : Epoxy Powder Coated
 image: /images/images-9-.jpg
-amount: Rs. 30,000/-
+amount: Rs. 35,000/-
 ---
