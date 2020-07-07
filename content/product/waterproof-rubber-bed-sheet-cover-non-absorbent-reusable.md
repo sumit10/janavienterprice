@@ -1,10 +1,12 @@
 ---
-title: Waterproof Rubber Bed Sheet Cover (Non-Absorbent Reusable)
+title: Bed Pan
 discription: |-
-  * Made of soft silicon fabric
-  * Hypoallergenic mats
-  * Travel friendly
-  * suitable for all types of floor
-image: /images/1_4_1.jpg
-amount: Rs. 220/- per meter
+  
+
+  * Smooth contoured comfortable edges
+  * Easy to clean
+  * Durable
+  * Made of durable polypropylene
+image: /images/i-20_2.jpg
+amount: "Rs. 180/- "
 ---
