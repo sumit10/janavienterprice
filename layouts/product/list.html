@@ -33,14 +33,16 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-12">
-                <div class="isotope-grid grid-three-column" data-gutter="30" data-columns="3" style="position: relative; display: flex;">
-                    <div class="grid-sizer" style="position: absolute; left: 0px; top: 0px;"></div>
+           
+                <!-- <div class="isotope-grid grid-three-column" data-gutter="30" data-columns="3" style="position: relative; display: flex;"> -->
+                    <!-- <div class="grid-sizer" style="position: absolute; left: 0px; top: 0px;"></div> -->
                     <!-- PRODUCT-->
-                    {{ range where .Site.RegularPages "Type" "product" }}                        
-                        <div class="item text-left" style="flex: 1 1 auto;">
+                    {{ range where .Site.RegularPages "Type" "product" }}   
+                    <div class="col-md-3">                     
+                        <div class="item text-left" >
                                 <!-- IMAGE -->
-                                <a href="{{ .Permalink }}" ><img class="img-responsive" src="{{ .Params.Image }}" width="370" height="470" alt=""></a>  
+                                <a href="{{ .Permalink }}" >
+                                    <img src="{{ .Params.Image }}" style="object-fit: contain;height: 300px !important;width: 300px !important;"></a>  
                                 <!-- PRODUCT DETAILS-->
                                 <h5 class="product-title">
                                     <a class="product-name" href="{{ .Permalink }}">{{ .Title }}</a>
@@ -51,10 +53,11 @@
                                     <a class="btn btn-sm btn-dark btn-square btn-hv-theme btn-default" href="{{ .Permalink }}" type="button">Learn More</a>
                                 </p>
                         </div>
+                    </div>
                     {{ end }}
-                </div>
+                <!-- </div> -->
             </div>
-        </div>
+       
 
     </div>
     <!-- /.CONTAINER -->
