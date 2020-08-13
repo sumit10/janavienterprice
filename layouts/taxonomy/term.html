@@ -1,0 +1,55 @@
+{{ define "content" }}
+<section class="page-header minimal page-title-left light-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-left">
+                <!-- TITLE-->
+                <h2 class="text-uppercase" data-animated="fadeInLeftBig" data-animation-delay="400">{{ .Title }}</h2>
+                <!-- TEXT-->
+                <!-- BREADCRUMB-->
+                <ul class="breadcrumb">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">{{ .Title }}</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="shop-section">
+    <!-- CONTAINER -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="product-result-count">
+                    Showing {{len .Pages}} results
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            {{ range .Pages }}
+            <div class="col-md-3">                     
+                <div class="item gallry-wrapper text-left" >
+                        <!-- IMAGE -->
+                        <a href="{{ .Permalink }}" >
+                            <img src="{{ .Params.Image }}" style="object-fit: contain;height: 300px !important;width: 300px !important;"></a>  
+                        <!-- PRODUCT DETAILS-->
+                        <h5 class="product-title">
+                            <a class="product-name" href="{{ .Permalink }}">{{ .Title }}</a>
+                            <span class="product-price"> -{{ .Params.Amount }}</span>
+                        </h5>
+                        <!-- LINK -->
+                        <p class="padding-bottom-20">
+                            <a class="btn btn-sm btn-dark btn-square btn-hv-theme btn-default" href="{{ .Permalink }}" type="button">Learn More</a>
+                        </p>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}

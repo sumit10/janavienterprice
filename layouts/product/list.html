@@ -39,7 +39,7 @@
                     <!-- PRODUCT-->
                     {{ range where .Site.RegularPages "Type" "product" }}   
                     <div class="col-md-3">                     
-                        <div class="item text-left" >
+                        <div class="item gallry-wrapper text-left" >
                                 <!-- IMAGE -->
                                 <a href="{{ .Permalink }}" >
                                     <img src="{{ .Params.Image }}" style="object-fit: contain;height: 300px !important;width: 300px !important;"></a>  

@@ -8,4 +8,5 @@ discription: >-
     Light Weight with Aluminium Structure & Height Adjustable Commode Chair with Wheels.
 image: /images/aluminium-height-adjustable-commode-chair-with-wheels-550x550h-550x550.jpg
 amount: Rs. 3200/-
+categories: ['test']
 ---

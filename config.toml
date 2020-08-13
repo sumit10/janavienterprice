@@ -1,3 +1,5 @@
 baseURL = "https://janvienterprise.in/"
 languageCode = "en-us"
 title = "Janvi Enterprises"
+[taxonomies]
+  category = "categories"

@@ -148,10 +148,15 @@
                         </li>
                         <li class="dropdown">
                             <a href="/product" class="dropdown-toggle">Products</a>
-                            <ul class="dropdown-menu">
-                                {{ range where .Site.RegularPages "Type" "product" }}   
+                            <ul class="dropdown dropdown-menu">
+                                {{ range $.Site.Taxonomies.categories }}   
                                 <!-- MENU -->
-                                    <li><a href="{{ .Permalink }}">{{.Title}}</a></li>
+                                    <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></li>
+                                    <ul class="dropdown-menu sub-menu">
+                                        {{ range .Pages }}   
+                                            <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+                                        {{ end }}
+                                    </ul>
                                 {{ end }}
                             </ul>
                         </li>

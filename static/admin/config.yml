@@ -16,3 +16,5 @@ collections:
       - {label: "Discription", name: "discription", widget: "markdown"}
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Amount", name: "amount", widget: "string"}
+      - {label: "Categories" , name: "categories" , widget: "list"}
+      - {label: "Aditional Images" , name: "galleryImages" , widget: "list" , summary: '{{fields.images}}' , field: {label: Image, name: images, widget: image}}
