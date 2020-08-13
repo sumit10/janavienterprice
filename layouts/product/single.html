@@ -31,8 +31,20 @@
                         <!-- PRODUCT-->
                         <div class="item text-left">
                             <!-- IMAGE -->
+                            {{ if ( gt ( .Params.GalleryImages ) 0 ) }}
+                            <div class="owl-carousel nav-bottom  dots-dark dots-outer dots-mini" data-items="1" data-margin="0" data-loop="true" data-merge="true" data-nav="false" data-dots="true" data-stagepadding="" data-mobile="1" data-tablet="1" data-desktopsmall="1" data-desktop="1" data-autoplay="true" data-delay="6000">
+                                <div class="item text-left">
+                                    <img class="img-responsive" src="{{ .Params.Image }}" width="370" height="470" alt="" />
+                                </div>
+                                {{ range .Params.GalleryImages }}   
+                                <div class="item text-left">
+                                    <img class="img-responsive" src="{{ . }}" width="370" height="470" alt="" />
+                                </div>
+                                {{ end }}
+                            </div>
+                            {{ else }}
                             <img class="img-responsive" src="{{ .Params.Image }}" width="370" height="470" alt="">
-                          
+                            {{ end }}
                         </div>
                         <div class="padding-bottom-50"></div>
                     </div>
