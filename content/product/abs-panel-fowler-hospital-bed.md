@@ -18,5 +18,9 @@ discription: |-
     This mattress is lightweight, soft, cozy and easy to move
 image: /images/images-9-.jpg
 amount: Rs. 21500/-
-categories: ['test']
+categories:
+  - Beds
+galleryImages:
+  - /images/1_4_1.jpg
+  - /images/515rrey9hwl._sx466_.jpg
 ---
