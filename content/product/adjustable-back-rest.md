@@ -9,5 +9,6 @@ discription: |-
   * Easily washable
 image: /images/bms025_2_.jpg
 amount: Rs. 1400/-
-categories: ['test']
+categories:
+  - REHABILITAION AIDS
 ---
