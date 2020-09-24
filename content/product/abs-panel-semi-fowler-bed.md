@@ -1,5 +1,5 @@
 ---
-title: ABS PANEL SEMI FOWLER BED
+title: ABS Panel Semi Fowler Bed
 discription: >-
   Frame work made of rectangular M.S. Tube.
 
