@@ -1,5 +1,5 @@
 ---
-title: STANDARD  WHEELCHAIR
+title: Standard Wheelchair
 discription: |-
   * Light-weight foldable construction for everyday use
   * Premium welds for ensured durability
