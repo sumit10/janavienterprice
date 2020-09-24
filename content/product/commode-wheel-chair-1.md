@@ -1,5 +1,5 @@
 ---
-title: Complete Folding Wheelchair
+title: Karma Aurora 5 Wheelchair
 discription: |-
   
 
