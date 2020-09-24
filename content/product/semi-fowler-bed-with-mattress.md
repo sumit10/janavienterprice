@@ -1,5 +1,5 @@
 ---
-title: SEMI FOWLER BED WITH MATTRESS
+title: Manual Semi Fowler Bed with Mattress
 discription: |-
   BED DETAILS:
 
@@ -36,4 +36,8 @@ discription: |-
   Package Content: 1 Foldable Foam Mattress.
 image: /images/fs_b079ck6qwj_smart_care_mattress_for_semi_fowler_bed_one_fold_83258213_1.jpg
 amount: Rs. 13500/-
+categories:
+  - HOSPITAL BEDS
+galleryImages:
+  - /images/1600941811363.jpg
 ---
