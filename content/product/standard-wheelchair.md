@@ -8,4 +8,6 @@ discription: |-
   * Durable upholstery for a comfortable ride
 image: /images/510nq5q5wfl._sx466_.jpg
 amount: Rs. 4500/-
+categories:
+  - WHEEL CHAIRS
 ---
