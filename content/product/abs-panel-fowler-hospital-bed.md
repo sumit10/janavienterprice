@@ -1,5 +1,5 @@
 ---
-title: ABS PANEL  FOWLER  HOSPITAL BED
+title: ABS Panel Fowler Bed
 discription: |-
   * Bed Platform : Semi Fowler Bed Platform With Fixed 1 Rod On Base
   * Head & Foot Panel : 2 ABS PANEL
