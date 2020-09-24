@@ -12,4 +12,6 @@ discription: |-
   Ideal for elderlies & individuals recovering from surgery or injuries
 image: /images/commode-stool-with-lock-550x550h-500x500.jpg
 amount: Rs. 850/-
+categories:
+  - COMMODE CHAIRS
 ---
