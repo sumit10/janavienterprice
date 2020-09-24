@@ -1,5 +1,5 @@
 ---
-title: Foldable Soft Stretcher
+title: Foldable Stretcher
 discription: |-
   * Made of durable waterproof PVC material
   * Comes with easy to clean with nylon straps
@@ -8,4 +8,6 @@ discription: |-
   * Helps avoid transporter fatigue
 image: /images/rz102.jpg
 amount: Rs. 1400/-
+categories:
+  - STREATCHERS
 ---
