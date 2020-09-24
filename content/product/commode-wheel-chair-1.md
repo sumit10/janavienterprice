@@ -23,4 +23,10 @@ image: /images/81jruinfktl._sl1500_.jpg
 amount: Rs. 8300/-
 categories:
   - WHEEL CHAIRS
+galleryImages:
+  - /images/a4.jpg
+  - /images/a6.jpg
+  - /images/a5.jpg
+  - /images/a3.jpg
+  - /images/a2.jpg
 ---
