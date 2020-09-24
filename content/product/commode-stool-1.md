@@ -1,5 +1,5 @@
 ---
-title: COMMODE STOOL
+title: Commode Stool
 discription: |-
   Powder coated folding frame
 
