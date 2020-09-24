@@ -1,5 +1,5 @@
 ---
-title: COMMODE WHEEL CHAIR
+title: Commode Wheel Chair Front Cut
 discription: |-
   
 
@@ -66,5 +66,6 @@ image: /images/71mpxmsnfrl._sl1100_.jpg
 amount: Rs. 6500/-
 categories:
   - WHEEL CHAIRS
-galleryImages: []
+galleryImages:
+  - /images/cc1.jpg
 ---
