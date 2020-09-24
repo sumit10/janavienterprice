@@ -49,4 +49,6 @@ discription: >-
   Power: DC 3V (2pcs AAA batteries)
 image: /images/51wmhvrlspl._sl1000_.jpg
 amount: Rs. 1800/-
+categories:
+  - THERMOMETER
 ---
