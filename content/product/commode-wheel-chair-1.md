@@ -1,5 +1,5 @@
 ---
-title: COMPLETE FOLDING WHEEL CHAIR
+title: Complete Folding Wheelchair
 discription: |-
   
 
