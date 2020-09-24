@@ -26,4 +26,6 @@ categories:
 galleryImages:
   - /images/karma-fighter-c-wheelchair3-1000x1000w.jpg
   - /images/karma-fighter-mag-wheel-wheelchair6-1000x1000.jpg
+  - /images/karma-fighter-mag-wheel-wheelchair1-1000x1000h.png
+  - /images/karma-fighter-mag-wheel-wheelchair6-1000x1000.jpg
 ---
