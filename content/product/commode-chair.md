@@ -1,5 +1,5 @@
 ---
-title: COMMODE CHAIR
+title: MS Handle with Fiber Back Rest Commode Chair
 discription: >-
   **Commode Chair with Armrest**
 
