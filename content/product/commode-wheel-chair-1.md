@@ -21,4 +21,6 @@ discription: |-
   * Max. User Weight: 100 Kg
 image: /images/81jruinfktl._sl1500_.jpg
 amount: Rs. 8300/-
+categories:
+  - WHEEL CHAIRS
 ---
