@@ -1,5 +1,5 @@
 ---
-title: FOWLER BED WITH MATTRESS
+title: Manual MS Fowler Bed with Mattress
 discription: |-
   BED DETAILS:
 
@@ -32,4 +32,8 @@ discription: |-
   This mattress is lightweight, soft, comfortable and easy to move.
 image: /images/full-fowler-bed.jpg
 amount: Rs. 16000/-
+categories:
+  - HOSPITAL BEDS
+galleryImages:
+  - /images/1600941593134.jpg
 ---
