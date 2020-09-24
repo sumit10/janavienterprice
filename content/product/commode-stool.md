@@ -1,5 +1,5 @@
 ---
-title: COMMODE CHAIR WITH ARM REST
+title: Imported Commode Chair with Pot
 discription: >-
   Folding Commode Chair with Front Cut provides the basic functionality of
   portability and convenience.
@@ -13,4 +13,6 @@ image: /images/commode-chair-with-armrest-1-550x550h-550x550.jpg
 amount: Rs. 1350/-
 categories:
   - COMMODE CHAIRS
+galleryImages:
+  - /images/folding-commode.jpg
 ---
