@@ -66,4 +66,5 @@ image: /images/71mpxmsnfrl._sl1100_.jpg
 amount: Rs. 6500/-
 categories:
   - WHEEL CHAIRS
+galleryImages: []
 ---
