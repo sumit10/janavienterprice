@@ -8,4 +8,6 @@ discription: "10 Seconds Fast And Accurate With Best Mercury Thermometer
   Glass Thermometers."
 image: /images/medical-digital-oral-thermometer-for-kids-and-adults-digital-original-imafhgvtk8p6jmxu.jpeg
 amount: Rs. 180/-
+categories:
+  - THERMOMETER
 ---
