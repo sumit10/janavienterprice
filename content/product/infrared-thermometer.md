@@ -51,4 +51,7 @@ image: /images/51wmhvrlspl._sl1000_.jpg
 amount: Rs. 1800/-
 categories:
   - THERMOMETER
+galleryImages:
+  - /images/secureye_thermal.jpg
+  - /images/infrared-thermometer_featured.jpg
 ---
