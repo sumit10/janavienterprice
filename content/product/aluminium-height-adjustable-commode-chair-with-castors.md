@@ -1,5 +1,5 @@
 ---
-title: ALUMINIUM HEIGHT ADJUSTABLE COMMODE CHAIR WITH WHEELS
+title: Alluminium Height Adjustable Commode Chair With Wheels
 discription: >-
   * Fully Foldable Commode Chair.
 
